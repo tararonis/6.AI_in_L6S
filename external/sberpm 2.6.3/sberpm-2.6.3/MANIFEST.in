@@ -1,0 +1,10 @@
+include .gitignore
+include LICENSE
+include LICENSE_RUS
+include requirements.txt
+include tutorials/*
+include tutorials/poster_PM/*
+global-exclude *~
+global-exclude *.pyc
+global-exclude .svn
+recursive-include sberpm *.txt *.csv *.bin *.json *.model *.tar
